@@ -16,8 +16,7 @@ Checkout the repo (currently build is on "master" branch)
 	Setup an IIS website pointing at "HotelsAPp.Api" folder 
 	Open the HotelsApp.sln in visual studio 
 	Right click the solution and select "Restore Nuget Packages" 
-	Make sure the DB connection string in "appsettings.json" points to localhost: 
-
+	Make sure the DB connection string in "appsettings.json" is similar to this in the example: 
 
 Server=127.0.0.1\\SQLEXPRESS2017,1434;Database=Limehome_Test01;User Id=limehome_Test01; Password=test2020;Application Name=Limehome_Test01;
 
