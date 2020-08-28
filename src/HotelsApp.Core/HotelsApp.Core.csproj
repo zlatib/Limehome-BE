@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ContactsModels\**" />
+    <Compile Remove="Models\MediaModels\**" />
+    <Compile Remove="Models\QueryModels\**" />
+    <Compile Remove="Models\WorkingHoursModels\**" />
+    <EmbeddedResource Remove="Models\ContactsModels\**" />
+    <EmbeddedResource Remove="Models\MediaModels\**" />
+    <EmbeddedResource Remove="Models\QueryModels\**" />
+    <EmbeddedResource Remove="Models\WorkingHoursModels\**" />
+    <None Remove="Models\ContactsModels\**" />
+    <None Remove="Models\MediaModels\**" />
+    <None Remove="Models\QueryModels\**" />
+    <None Remove="Models\WorkingHoursModels\**" />
+  </ItemGroup>
+
+</Project>
