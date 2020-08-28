@@ -23,7 +23,7 @@ Server=127.0.0.1\\SQLEXPRESS2017,1434;Database=Limehome_Test01;User Id=limehome_
 
 - build the project
 
-Database Setup
+## Database Setup
 
 
 	
@@ -32,7 +32,7 @@ Open SQL Server Management Studio
 	The user for the db must be db_owner
 
 
-Back-End Test
+## Back-End Test
 
 
 	
